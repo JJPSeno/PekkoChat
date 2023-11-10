@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>∩(´∀｀∩) WebSocket Tool (∩´∀｀)∩</title>
+  <style>
+    body {
+        background: black;
+        color: #4AF626;
+        font-size: 20px;
+        font-family: Monospace;
+    }
+    input, button {
+        background: black;
+        color: #4AF626;
+        border-color: #4AF626;
+        font-size: 1.25em;
+    }
+    #log {
+      width: 100%;
+      height: 400px;
+      border: 1px solid #4AF626;
+      overflow-y: scroll;
+    }
+  </style>
+</head>
+<body>
+  <h1>∩(´∀｀∩) WebSocket Tool (∩´∀｀)∩</h1>
+
+  <label for="url">WebSocket URL:</label>
+  <input type="text" id="url" placeholder="ws://localhost:9000" value="ws://localhost:9000/ws">
+  <button id="connect">Connect</button>
+  <button id="disconnect">Disconnect</button>
+
+  <h3>Logs</h3>
+  <div id="log"></div>
+  <br>
+  <label for="message">
+    Message:
+    <input type="text" id="message" placeholder="Enter Your Message">
+    <button id="send">Send</button>
+  </label>
+
+  <script>
+    let ws
+
+    const onopen = () => {
+      log('Connected')
+    }
+
+    const onclose = () => {
+      log('Disconnected')
+      disconnect()
+    }
+
+    const onerror = (e) => {
+      log('Error: ' + JSON.stringify(e))
+      ws.close()
+    }
+
+    const onmessage = (e) => {
+      if (e.data instanceof Blob) {
+        const reader = new FileReader()
+        reader.onload = () => {
+          log('~> ' + reader.result)
+        }
+        reader.readAsText(e.data)
+      } else {
+        log('~> ' + e.data)
+      }
+    }
+
+    function log(message) {
+      const elem = document.getElementById('log')
+      elem.innerHTML += message + '<br>'
+      elem.scrollTop = elem.scrollHeight
+    }
+
+    function connect(url) {
+      if (ws) disconnect()
+      try {
+        ws = new WebSocket(url)
+        ws.addEventListener('open', onopen)
+        ws.addEventListener('close', onclose)
+        ws.addEventListener('message', onmessage)
+        ws.addEventListener('error', onerror)
+      } finally {
+        disconnect()
+      }
+    }
+
+    function disconnect() {
+      if (! ws) {
+        ws.close()
+        ws.removeEventListener('open', onopen)
+        ws.removeEventListener('close', onclose)
+        ws.removeEventListener('message', onmessage)
+        ws.removeEventListener('error', onerror)
+        ws = undefined
+      }
+    }
+
+    function send(message) {
+      if (ws && ws.readyState === WebSocket.OPEN) {
+        ws.send(message)
+        log('<~ ' + message)
+        message.value = ''
+      } else {
+        log('Not connected')
+      }
+    }
+
+    document.getElementById('connect').addEventListener('click', () => {
+      connect(document.getElementById('url').value)
+    })
+
+    document.getElementById('disconnect').addEventListener('click', () => {
+      if (ws) ws.close()
+    })
+
+    const onclickOrOnenter = () => {
+      send(document.getElementById('message').value)
+      document.getElementById('message').value = ''
+    }
+
+    document.getElementById('send').addEventListener('click', onclickOrOnenter)
+    document.getElementById('message').addEventListener('keyup', () => {
+      if (event.code === 'Enter') {
+        event.preventDefault()
+        onclickOrOnenter()
+      }
+    })
+  </script>
+</body>
+</html>

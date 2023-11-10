@@ -1,0 +1,262 @@
+2023.11.10 08:45:14 INFO  Started: Metals version 1.1.0 in folders '/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server' for client Visual Studio Code 1.74.3.[0m
+2023.11.10 08:45:16 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+[0m
+2023.11.10 08:46:33 INFO  no build target found for /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.1[0m
+Nov 10, 2023 8:46:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Nov 10, 2023 8:46:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2023.11.10 08:46:39 WARN  no build target for: /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/build.sbt[0m
+Nov 10, 2023 8:46:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Nov 10, 2023 8:46:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+2023.11.10 08:46:42 WARN  no build target for: /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/build.sbt[0m
+2023.11.10 09:23:03 WARN  Could not find semantic tokens for: file:///Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/app/Actors/HelloActor.scala[0m
+2023.11.10 09:23:26 WARN  no build target for: /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/app/Actors/HelloActor.scala[0m
+2023.11.10 09:24:01 INFO  running '/opt/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/hd/g_z2jt253d30pypn9l4hqg400000gp/T/metals3135396275453881779/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.11.10 09:24:01 WARN  no build target for: /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/metals.sbt[0m
+2023.11.10 09:24:01 WARN  no build target for: /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/metals.sbt[0m
+2023.11.10 09:24:01 INFO  skipping build import with status 'Started'[0m
+2023.11.10 09:24:05 INFO  [info] welcome to sbt 1.9.7 (Amazon.com Inc. Java 21.0.1)[0m
+2023.11.10 09:24:10 INFO  [info] loading settings for project pekkoauth-server-build-build-build from metals.sbt ...[0m
+2023.11.10 09:24:12 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/project[0m
+2023.11.10 09:24:17 INFO  [info] loading settings for project pekkoauth-server-build-build from metals.sbt ...[0m
+2023.11.10 09:24:17 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project[0m
+2023.11.10 09:24:22 INFO  [success] Generated .bloop/pekkoauth-server-build-build.json[0m
+2023.11.10 09:24:22 INFO  [success] Total time: 5 s, completed Nov 10, 2023, 9:24:23 AM[0m
+2023.11.10 09:24:25 INFO  [info] loading settings for project pekkoauth-server-build from metals.sbt,plugins.sbt ...[0m
+2023.11.10 09:24:25 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project[0m
+2023.11.10 09:24:29 INFO  [success] Generated .bloop/pekkoauth-server-build.json[0m
+2023.11.10 09:24:29 INFO  [success] Total time: 5 s, completed Nov 10, 2023, 9:24:30 AM[0m
+2023.11.10 09:24:35 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.11.10 09:24:35 INFO  [info]   __              __[0m
+2023.11.10 09:24:35 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2023.11.10 09:24:35 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2023.11.10 09:24:35 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2023.11.10 09:24:35 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2023.11.10 09:24:35 INFO  [info]       /_/               /____/[0m
+2023.11.10 09:24:35 INFO  [info] [0m
+2023.11.10 09:24:35 INFO  [info] Version 3.0.0 running Java 21.0.1[0m
+2023.11.10 09:24:35 INFO  [info] [0m
+2023.11.10 09:24:35 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2023.11.10 09:24:35 INFO  [info] https://www.playframework.com/sponsors[0m
+2023.11.10 09:24:35 INFO  [info] [0m
+2023.11.10 09:24:41 INFO  [success] Generated .bloop/root.json[0m
+2023.11.10 09:24:41 INFO  [success] Generated .bloop/root-test.json[0m
+2023.11.10 09:24:41 INFO  [success] Total time: 6 s, completed Nov 10, 2023, 9:24:42 AM[0m
+2023.11.10 09:24:42 INFO  time: ran 'sbt bloopInstall' in 40s[0m
+2023.11.10 09:24:45 INFO  Attempting to connect to the build server...[0m
+2023.11.10 09:24:45 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json[0m
+2023.11.10 09:24:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.11.10 09:24:47 INFO  Attempting to connect to the build server...[0m
+2023.11.10 09:24:47 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json[0m
+2023.11.10 09:24:47 INFO  Attempting to connect to the build server...[0m
+2023.11.10 09:24:47 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json[0m
+2023.11.10 09:24:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.11.10 09:24:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.11.10 09:24:47 INFO  time: Connected to build server in 1.8s[0m
+2023.11.10 09:24:47 INFO  Connected to Build server: Bloop v1.5.11[0m
+2023.11.10 09:24:47 INFO  time: Imported build in 0.22s[0m
+2023.11.10 09:25:12 INFO  time: indexed workspace in 24s[0m
+2023.11.10 09:25:12 INFO  compiling root (8 scala sources and 1 java source)[0m
+2023.11.10 09:25:58 WARN  Error reading API from class file: controllers.routes : java.lang.UnsupportedClassVersionError: controllers/routes has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 52.0[0m
+2023.11.10 09:25:58 WARN  Error reading API from class file: controllers.routes$javascript : java.lang.UnsupportedClassVersionError: controllers/routes$javascript has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 52.0[0m
+2023.11.10 09:25:58 INFO  time: compiled root in 46s[0m
+2023.11.10 09:25:58 INFO  compiling root-test (1 scala source)[0m
+2023.11.10 09:26:10 INFO  time: compiled root-test in 11s[0m
+2023.11.10 09:26:16 INFO  time: code lens generation in 5.65s[0m
+2023.11.10 09:26:16 INFO  time: code lens generation in 6.06s[0m
+2023.11.10 09:26:16 INFO  time: code lens generation in 6.06s[0m
+2023.11.10 09:26:16 INFO  time: code lens generation in 6.06s[0m
+2023.11.10 09:26:16 INFO  time: code lens generation in 6.1s[0m
+2023.11.10 09:26:16 INFO  time: code lens generation in 6.06s[0m
+2023.11.10 09:26:16 INFO  time: code lens generation in 6.1s[0m
+2023.11.10 09:26:16 INFO  time: code lens generation in 6.11s[0m
+2023.11.10 09:26:16 INFO  time: code lens generation in 6.06s[0m
+2023.11.10 09:37:47 INFO  compiling root (1 scala source)[0m
+2023.11.10 09:37:51 INFO  time: compiled root in 3.89s[0m
+2023.11.10 09:38:06 INFO  compiling root (1 scala source)[0m
+2023.11.10 09:38:10 INFO  time: compiled root in 4.43s[0m
+2023.11.10 09:38:35 INFO  compiling root (1 scala source)[0m
+2023.11.10 09:38:42 INFO  time: compiled root in 6.54s[0m
+2023.11.10 09:38:49 INFO  compiling root (1 scala source)[0m
+2023.11.10 09:38:53 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/app/controllers/HomeController.scala[0m
+2023.11.10 09:38:54 INFO  time: compiled root in 4.77s[0m
+2023.11.10 09:39:04 INFO  compiling root (1 scala source)[0m
+2023.11.10 09:39:07 INFO  time: compiled root in 3.06s[0m
+Nov 10, 2023 10:17:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 282
+2023.11.10 10:17:31 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:17:49 INFO  time: compiled root in 17s[0m
+2023.11.10 10:18:23 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:18:24 INFO  time: compiled root in 1.51s[0m
+2023.11.10 10:18:35 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:18:37 INFO  time: compiled root in 1.54s[0m
+2023.11.10 10:19:04 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:19:04 INFO  time: compiled root in 0.52s[0m
+2023.11.10 10:19:24 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:19:26 INFO  time: compiled root in 1.61s[0m
+2023.11.10 10:19:52 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:20:00 INFO  time: compiled root in 8.41s[0m
+2023.11.10 10:20:01 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:20:09 INFO  time: compiled root in 8s[0m
+2023.11.10 10:21:14 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:21:16 INFO  time: compiled root in 2s[0m
+2023.11.10 10:21:29 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:21:33 INFO  time: compiled root in 3.71s[0m
+2023.11.10 10:21:33 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:21:35 INFO  time: compiled root in 2.43s[0m
+2023.11.10 10:21:52 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:21:55 INFO  time: compiled root in 2.98s[0m
+2023.11.10 10:23:26 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:23:29 INFO  time: compiled root in 2.95s[0m
+2023.11.10 10:32:51 INFO  compiling root (3 scala sources)[0m
+2023.11.10 10:32:58 INFO  time: compiled root in 7.12s[0m
+2023.11.10 10:33:06 INFO  compiling root (3 scala sources)[0m
+2023.11.10 10:33:10 INFO  time: compiled root in 4.58s[0m
+2023.11.10 10:33:12 INFO  compiling root (3 scala sources)[0m
+2023.11.10 10:33:18 INFO  time: compiled root in 6.65s[0m
+Nov 10, 2023 10:37:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1009
+2023.11.10 10:38:07 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:38:11 INFO  time: compiled root in 4.39s[0m
+Nov 10, 2023 10:39:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1148
+2023.11.10 10:39:36 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:39:43 INFO  time: compiled root in 6.73s[0m
+2023.11.10 10:39:43 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:39:45 INFO  time: compiled root in 1.87s[0m
+2023.11.10 10:39:45 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:39:48 INFO  time: compiled root in 3.26s[0m
+2023.11.10 10:39:48 INFO  compiling root (1 scala source)[0m
+2023.11.10 10:39:50 INFO  time: compiled root in 1.63s[0m
+2023.11.10 10:40:18 INFO  compiling root (4 scala sources)[0m
+2023.11.10 10:40:24 INFO  time: compiled root in 5.99s[0m
+2023.11.10 10:49:44 INFO  Shutting down server[0m
+2023.11.10 10:49:44 INFO  shutting down Metals[0m
+2023.11.10 10:49:44 INFO  Shut down connection with build server.[0m
+2023.11.10 10:49:45 INFO  Shut down connection with build server.[0m
+2023.11.10 10:49:45 INFO  Shut down connection with build server.[0m
+2023.11.10 10:49:45 INFO  Exiting server[0m
+2023.11.10 10:52:46 INFO  Started: Metals version 1.1.0 in folders '/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server' for client Visual Studio Code 1.74.3.
+2023.11.10 10:52:48 INFO  Attempting to connect to the build server...
+2023.11.10 10:52:48 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.10 10:52:49 INFO  skipping build import with status 'Installed'
+2023.11.10 10:52:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.10 10:52:49 INFO  Attempting to connect to the build server...
+2023.11.10 10:52:49 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.10 10:52:49 INFO  Attempting to connect to the build server...
+2023.11.10 10:52:49 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.10 10:52:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.10 10:52:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.10 10:52:49 INFO  time: Connected to build server in 0.96s
+2023.11.10 10:52:49 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.10 10:52:49 INFO  time: Imported build in 0.18s
+2023.11.10 10:53:00 INFO  time: indexed workspace in 10s
+Nov 10, 2023 10:56:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2023.11.10 10:57:13 INFO  time: code lens generation in 12s
+2023.11.10 10:57:13 INFO  time: code lens generation in 13s
+2023.11.10 10:57:14 INFO  compiling root (1 scala source)
+2023.11.10 10:57:18 INFO  time: compiled root in 4.22s
+2023.11.10 10:58:32 INFO  compiling root (1 scala source)
+2023.11.10 10:58:36 INFO  time: compiled root in 4.45s
+2023.11.10 11:00:31 INFO  compiling root (3 scala sources)
+2023.11.10 11:00:47 INFO  time: compiled root in 15s
+2023.11.10 11:04:22 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:04:32 INFO  time: compiled root in 10s
+2023.11.10 11:06:18 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:06:28 INFO  time: compiled root in 9.56s
+2023.11.10 11:06:39 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:06:48 INFO  time: compiled root in 9.12s
+2023.11.10 11:06:54 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:06:58 INFO  time: compiled root in 3.58s
+2023.11.10 11:07:03 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:07:09 INFO  time: compiled root in 5.81s
+2023.11.10 11:07:23 INFO  compiling root (10 scala sources and 1 java source)
+Nov 10, 2023 11:07:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 391
+2023.11.10 11:07:31 INFO  time: compiled root in 8.17s
+2023.11.10 11:07:31 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:07:45 INFO  time: compiled root in 13s
+2023.11.10 11:08:52 INFO  running '/opt/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/hd/g_z2jt253d30pypn9l4hqg400000gp/T/metals16963891270817885050/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.10 11:08:55 INFO  [info] welcome to sbt 1.9.7 (Amazon.com Inc. Java 21.0.1)
+2023.11.10 11:08:57 INFO  [info] loading settings for project pekkoauth-server-build-build-build from metals.sbt ...
+2023.11.10 11:08:59 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/project
+2023.11.10 11:09:01 INFO  [info] loading settings for project pekkoauth-server-build-build from metals.sbt ...
+2023.11.10 11:09:01 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project
+2023.11.10 11:09:05 INFO  [success] Generated .bloop/pekkoauth-server-build-build.json
+2023.11.10 11:09:05 INFO  [success] Total time: 4 s, completed Nov 10, 2023, 11:09:06 AM
+2023.11.10 11:09:05 INFO  [info] loading settings for project pekkoauth-server-build from metals.sbt,plugins.sbt ...
+2023.11.10 11:09:05 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project
+2023.11.10 11:09:08 INFO  [success] Generated .bloop/pekkoauth-server-build.json
+2023.11.10 11:09:08 INFO  [success] Total time: 2 s, completed Nov 10, 2023, 11:09:09 AM
+2023.11.10 11:09:10 INFO  [info] loading settings for project root from build.sbt ...
+2023.11.10 11:09:10 INFO  [info]   __              __
+2023.11.10 11:09:10 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.11.10 11:09:10 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.11.10 11:09:10 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.11.10 11:09:10 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.11.10 11:09:10 INFO  [info]       /_/               /____/
+2023.11.10 11:09:10 INFO  [info] 
+2023.11.10 11:09:10 INFO  [info] Version 3.0.0 running Java 21.0.1
+2023.11.10 11:09:10 INFO  [info] 
+2023.11.10 11:09:10 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.11.10 11:09:10 INFO  [info] https://www.playframework.com/sponsors
+2023.11.10 11:09:10 INFO  [info] 
+2023.11.10 11:09:16 INFO  [success] Generated .bloop/root.json
+2023.11.10 11:09:16 INFO  [success] Generated .bloop/root-test.json
+2023.11.10 11:09:16 INFO  [success] Total time: 5 s, completed Nov 10, 2023, 11:09:16 AM
+2023.11.10 11:09:16 INFO  time: ran 'sbt bloopInstall' in 24s
+2023.11.10 11:09:16 INFO  Disconnecting from Bloop session...
+2023.11.10 11:09:16 INFO  Shut down connection with build server.
+2023.11.10 11:09:16 INFO  Shut down connection with build server.
+2023.11.10 11:09:16 INFO  Shut down connection with build server.
+2023.11.10 11:09:16 INFO  Attempting to connect to the build server...
+2023.11.10 11:09:16 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.10 11:09:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.10 11:09:16 INFO  Attempting to connect to the build server...
+2023.11.10 11:09:16 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.10 11:09:16 INFO  Attempting to connect to the build server...
+2023.11.10 11:09:16 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.10 11:09:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.10 11:09:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.10 11:09:16 INFO  time: Connected to build server in 0.21s
+2023.11.10 11:09:16 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.10 11:09:16 INFO  time: Imported build in 0.13s
+2023.11.10 11:09:22 INFO  time: indexed workspace in 5.71s
+2023.11.10 11:10:01 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:10:05 INFO  time: compiled root in 4.68s
+2023.11.10 11:10:49 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:10:51 INFO  time: compiled root in 1.96s
+2023.11.10 11:13:04 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 3m 48.094s)
+2023.11.10 11:13:04 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:13:04 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:13:06 INFO  time: compiled root in 1.09s
+2023.11.10 11:13:17 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:13:24 INFO  time: compiled root in 6.5s
+Nov 10, 2023 11:13:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 757
+2023.11.10 11:13:29 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:13:33 INFO  time: compiled root in 4.2s
+2023.11.10 11:13:33 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:13:37 INFO  time: compiled root in 3.96s
+2023.11.10 11:13:37 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:13:39 INFO  time: compiled root in 2.24s
+2023.11.10 11:13:39 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:13:42 INFO  time: compiled root in 3.1s
+2023.11.10 11:13:42 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:13:45 INFO  time: compiled root in 2.84s
+2023.11.10 11:13:59 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:14:08 WARN  javac exited with exit code 1
+2023.11.10 11:14:08 INFO  time: compiled root in 9.18s
+Nov 10, 2023 11:14:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 849
+2023.11.10 11:14:37 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:14:45 WARN  javac exited with exit code 1
+2023.11.10 11:14:45 INFO  time: compiled root in 8.03s
+2023.11.10 11:14:45 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.10 11:14:50 WARN  javac exited with exit code 1
+2023.11.10 11:14:50 INFO  time: compiled root in 5.06s
