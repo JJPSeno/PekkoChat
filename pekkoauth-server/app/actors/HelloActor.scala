@@ -12,7 +12,7 @@ class HelloActor extends Actor {
   import HelloActor._
 
   def receive = {
-    case SayHello(message: String) =>
-      sender() ! "Hello, " + message
+    case SayHello(name: String) =>
+      sender() ! "Hello, " + name
   }
 }

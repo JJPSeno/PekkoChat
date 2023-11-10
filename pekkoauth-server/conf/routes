@@ -5,8 +5,13 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index()
-POST    /msg                        controllers.HomeController.sayHello()
+GET     /init                       controllers.HomeController.init()
+GET     /cusers                     controllers.HomeController.getAllUsers()
+GET     /msg                        controllers.HomeController.sayHello()
 GET     /ws                         controllers.HomeController.socket()
+POST    /register                   controllers.HomeController.register()
+POST    /login                      controllers.HomeController.login()
+POST    /logout                     controllers.HomeController.logout()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
