@@ -22,3 +22,1545 @@ Nov 10, 2023 3:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 123
 2023.11.10 15:23:00 WARN  no build target for: /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/app/actors/HelloActor.scala
 2023.11.10 15:24:05 WARN  no build target for: /Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 08:53:53 INFO  Started: Metals version 1.1.0 in folders '/Users/jjpseno/Documents/FULLPROJ/PekkoChat' for client Visual Studio Code 1.74.3.
+2023.11.13 08:53:58 INFO  Attempting to connect to the build server...
+2023.11.13 08:53:58 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.13 08:54:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoChat/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.13 08:54:01 INFO  time: Connected to build server in 2.92s
+2023.11.13 08:54:01 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.13 08:54:02 INFO  time: Imported build in 0.32s
+2023.11.13 08:54:03 INFO  running '/opt/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/hd/g_z2jt253d30pypn9l4hqg400000gp/T/metals16678342102377269906/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.13 08:54:08 INFO  [info] welcome to sbt 1.9.7 (Amazon.com Inc. Java 21.0.1)
+2023.11.13 08:54:10 INFO  [info] loading settings for project pekkoauth-server-build-build-build from metals.sbt ...
+2023.11.13 08:54:12 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/project
+2023.11.13 08:54:14 INFO  [info] loading settings for project pekkoauth-server-build-build from metals.sbt ...
+2023.11.13 08:54:14 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project
+2023.11.13 08:54:21 INFO  [success] Generated .bloop/pekkoauth-server-build-build.json
+2023.11.13 08:54:21 INFO  [success] Total time: 7 s, completed Nov 13, 2023, 8:54:22 AM
+2023.11.13 08:54:22 INFO  [info] loading settings for project pekkoauth-server-build from metals.sbt,plugins.sbt ...
+2023.11.13 08:54:22 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project
+2023.11.13 08:54:26 INFO  [success] Generated .bloop/pekkoauth-server-build.json
+2023.11.13 08:54:26 INFO  [success] Total time: 3 s, completed Nov 13, 2023, 8:54:26 AM
+2023.11.13 08:54:28 INFO  [info] loading settings for project root from build.sbt ...
+2023.11.13 08:54:28 INFO  [info]   __              __
+2023.11.13 08:54:28 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.11.13 08:54:28 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.11.13 08:54:28 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.11.13 08:54:28 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.11.13 08:54:28 INFO  [info]       /_/               /____/
+2023.11.13 08:54:28 INFO  [info] 
+2023.11.13 08:54:28 INFO  [info] Version 3.0.0 running Java 21.0.1
+2023.11.13 08:54:28 INFO  [info] 
+2023.11.13 08:54:28 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.11.13 08:54:28 INFO  [info] https://www.playframework.com/sponsors
+2023.11.13 08:54:28 INFO  [info] 
+2023.11.13 08:54:31 INFO  time: indexed workspace in 29s
+2023.11.13 08:54:36 INFO  [success] Generated .bloop/root.json
+2023.11.13 08:54:36 INFO  [success] Generated .bloop/root-test.json
+2023.11.13 08:54:36 INFO  [success] Total time: 7 s, completed Nov 13, 2023, 8:54:36 AM
+2023.11.13 08:54:36 INFO  time: ran 'sbt bloopInstall' in 32s
+2023.11.13 08:54:36 INFO  Disconnecting from Bloop session...
+2023.11.13 08:54:36 INFO  Shut down connection with build server.
+2023.11.13 08:54:36 INFO  Attempting to connect to the build server...
+2023.11.13 08:54:36 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.13 08:54:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoChat/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.13 08:54:36 INFO  time: Connected to build server in 81ms
+2023.11.13 08:54:36 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.13 08:54:38 INFO  time: Imported build in 0.14s
+2023.11.13 08:54:42 INFO  time: indexed workspace in 4.28s
+2023.11.13 08:58:08 INFO  compiling root (15 scala sources and 1 java source)
+2023.11.13 08:58:33 WARN  javac exited with exit code 1
+2023.11.13 08:58:33 INFO  time: compiled root in 25s
+2023.11.13 09:04:20 INFO  compiling root (15 scala sources and 1 java source)
+2023.11.13 09:04:28 WARN  javac exited with exit code 1
+2023.11.13 09:04:28 INFO  time: compiled root in 7.94s
+2023.11.13 09:04:30 INFO  compiling root (16 scala sources and 1 java source)
+2023.11.13 09:04:42 WARN  javac exited with exit code 1
+2023.11.13 09:04:42 INFO  time: compiled root in 11s
+2023.11.13 09:04:42 INFO  compiling root (16 scala sources and 1 java source)
+2023.11.13 09:04:47 WARN  javac exited with exit code 1
+2023.11.13 09:04:47 INFO  time: compiled root in 4.42s
+2023.11.13 09:04:53 INFO  compiling root (17 scala sources and 1 java source)
+2023.11.13 09:04:55 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 10m 18.839s)
+2023.11.13 09:04:55 INFO  compiling root (17 scala sources and 1 java source)
+2023.11.13 09:05:01 WARN  javac exited with exit code 1
+2023.11.13 09:05:01 WARN  javac exited with exit code 1
+2023.11.13 09:05:01 INFO  time: compiled root in 5.57s
+2023.11.13 09:05:48 INFO  compiling root (17 scala sources and 1 java source)
+2023.11.13 09:05:53 WARN  javac exited with exit code 1
+2023.11.13 09:05:53 INFO  time: compiled root in 5.09s
+2023.11.13 09:06:01 INFO  compiling root (17 scala sources and 1 java source)
+2023.11.13 09:06:06 WARN  javac exited with exit code 1
+2023.11.13 09:06:06 INFO  time: compiled root in 4.74s
+2023.11.13 09:06:08 INFO  compiling root (17 scala sources and 1 java source)
+2023.11.13 09:06:15 WARN  javac exited with exit code 1
+2023.11.13 09:06:15 INFO  time: compiled root in 6.83s
+2023.11.13 09:06:20 INFO  compiling root (17 scala sources and 1 java source)
+2023.11.13 09:06:27 WARN  javac exited with exit code 1
+2023.11.13 09:06:27 INFO  time: compiled root in 6.2s
+2023.11.13 09:08:27 INFO  compiling root (17 scala sources and 1 java source)
+2023.11.13 09:08:38 WARN  javac exited with exit code 1
+2023.11.13 09:08:38 INFO  time: compiled root in 11s
+2023.11.13 09:08:38 INFO  compiling root (17 scala sources and 1 java source)
+2023.11.13 09:08:44 WARN  javac exited with exit code 1
+2023.11.13 09:08:44 INFO  time: compiled root in 5.75s
+2023.11.13 09:08:44 INFO  compiling root (17 scala sources and 1 java source)
+2023.11.13 09:08:53 WARN  javac exited with exit code 1
+2023.11.13 09:08:53 INFO  time: compiled root in 9.67s
+2023.11.13 09:08:53 INFO  compiling root (17 scala sources and 1 java source)
+2023.11.13 09:09:00 WARN  javac exited with exit code 1
+2023.11.13 09:09:00 INFO  time: compiled root in 6.03s
+2023.11.13 09:09:04 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:09:12 WARN  javac exited with exit code 1
+2023.11.13 09:09:12 INFO  time: compiled root in 7.55s
+2023.11.13 09:09:12 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:09:18 WARN  javac exited with exit code 1
+2023.11.13 09:09:18 INFO  time: compiled root in 5.69s
+2023.11.13 09:09:18 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:09:25 WARN  javac exited with exit code 1
+2023.11.13 09:09:25 INFO  time: compiled root in 7.4s
+2023.11.13 09:09:25 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:09:34 WARN  javac exited with exit code 1
+2023.11.13 09:09:34 INFO  time: compiled root in 9.01s
+2023.11.13 09:09:34 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:09:42 WARN  javac exited with exit code 1
+2023.11.13 09:09:42 INFO  time: compiled root in 7.41s
+2023.11.13 09:12:41 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:12:50 WARN  javac exited with exit code 1
+2023.11.13 09:12:50 INFO  time: compiled root in 8.46s
+2023.11.13 09:13:34 INFO  compiling root (18 scala sources and 1 java source)
+Nov 13, 2023 9:13:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 780
+2023.11.13 09:13:45 WARN  javac exited with exit code 1
+2023.11.13 09:13:45 INFO  time: compiled root in 10s
+2023.11.13 09:13:46 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:13:57 INFO  time: compiled root in 11s
+2023.11.13 09:13:57 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:14:02 INFO  time: compiled root in 4.4s
+2023.11.13 09:17:03 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:17:05 INFO  time: compiled root in 2.76s
+2023.11.13 09:17:28 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:17:33 INFO  time: compiled root in 4.78s
+2023.11.13 09:17:40 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:17:40 WARN  Using indexes to guess the definition of MessageTable
+2023.11.13 09:17:47 INFO  time: compiled root in 7.09s
+2023.11.13 09:18:01 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:18:04 INFO  time: compiled root in 2.66s
+2023.11.13 09:18:23 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:18:29 WARN  javac exited with exit code 1
+2023.11.13 09:18:29 INFO  time: compiled root in 6.13s
+2023.11.13 09:18:58 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:19:04 WARN  javac exited with exit code 1
+2023.11.13 09:19:04 INFO  time: compiled root in 6.15s
+2023.11.13 09:20:08 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:20:16 WARN  javac exited with exit code 1
+2023.11.13 09:20:16 INFO  time: compiled root in 8.07s
+2023.11.13 09:23:02 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:23:10 WARN  javac exited with exit code 1
+2023.11.13 09:23:10 INFO  time: compiled root in 7.88s
+2023.11.13 09:23:47 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:23:53 WARN  javac exited with exit code 1
+2023.11.13 09:23:53 INFO  time: compiled root in 6.26s
+2023.11.13 09:24:02 WARN  Using indexes to guess the definition of createMessageSchema
+2023.11.13 09:24:02 WARN  Using indexes to guess the definition of createMessageSchema
+2023.11.13 09:25:59 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:26:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:26:03 INFO  time: compiled root in 3.65s
+2023.11.13 09:26:03 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:26:03 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:26:05 INFO  time: compiled root in 2.87s
+2023.11.13 09:26:06 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:03 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:27:09 WARN  javac exited with exit code 1
+2023.11.13 09:27:09 INFO  time: compiled root in 5.89s
+2023.11.13 09:27:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:34 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:27:39 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:40 WARN  javac exited with exit code 1
+2023.11.13 09:27:40 INFO  time: compiled root in 6.71s
+2023.11.13 09:27:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:45 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:47 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:49 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:55 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:27:55 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:03 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:28:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:00 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:00 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:15 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:29:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:24 INFO  time: compiled root in 9.15s
+2023.11.13 09:29:24 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:29:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:29 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:30 INFO  time: compiled root in 6.28s
+2023.11.13 09:29:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:29:56 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:30:00 INFO  time: compiled root in 4.24s
+2023.11.13 09:30:00 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:30:21 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:30:21 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:30:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:30:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:30:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 9:30:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2205
+Nov 13, 2023 9:30:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2206
+2023.11.13 09:30:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:30:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:30:33 WARN  javac exited with exit code 1
+2023.11.13 09:30:33 INFO  time: compiled root in 11s
+2023.11.13 09:30:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:30:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:30:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:30:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:30:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:30:44 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:31:19 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:31:21 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:31:21 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:31:21 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:31:21 WARN  Using indexes to guess the definition of username
+2023.11.13 09:31:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:31:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:31:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:31:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:31:43 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:31:49 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:31:55 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:32:21 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:19 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:29 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:39 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:43 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:43 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:45 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:47 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:33:56 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:33:58 INFO  time: compiled root in 2.5s
+2023.11.13 09:33:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:34:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:34:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:35:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:35:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:43:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:43:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:46:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:47:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:47:55 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:48:00 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:48:07 WARN  javac exited with exit code 1
+2023.11.13 09:48:07 INFO  time: compiled root in 11s
+2023.11.13 09:48:07 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:48:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:48:12 WARN  javac exited with exit code 1
+2023.11.13 09:48:12 INFO  time: compiled root in 4.83s
+2023.11.13 09:48:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:48:55 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 9:49:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2606
+2023.11.13 09:49:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:16 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:19 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:21 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:39 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:44 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:47 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:49 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:51 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:49:53 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:49:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:03 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:03 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:04 WARN  javac exited with exit code 1
+2023.11.13 09:50:04 INFO  time: compiled root in 11s
+2023.11.13 09:50:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:06 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:29 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:50:36 WARN  javac exited with exit code 1
+2023.11.13 09:50:36 INFO  time: compiled root in 6.75s
+2023.11.13 09:50:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:44 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:50:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:17 WARN  Using indexes to guess the definition of json
+2023.11.13 09:51:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:18 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 09:51:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:22 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 09:51:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:51:22 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 09:52:00 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:52:07 WARN  javac exited with exit code 1
+2023.11.13 09:52:07 INFO  time: compiled root in 7.1s
+2023.11.13 09:52:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:52:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:52:47 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:52:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:52:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:52:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:52:55 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:52:55 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:52:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:52:59 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:53:07 INFO  time: compiled root in 8.35s
+2023.11.13 09:53:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:53:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:53:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:53:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:53:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:53:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:53:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:53:38 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:53:46 INFO  time: compiled root in 7.98s
+2023.11.13 09:53:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:54:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:54:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:54:06 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:54:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:54:11 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:54:18 WARN  javac exited with exit code 1
+2023.11.13 09:54:18 INFO  time: compiled root in 7.74s
+2023.11.13 09:54:19 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:54:39 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:54:43 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:54:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:54:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:54:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:54:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:02 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:55:09 WARN  javac exited with exit code 1
+2023.11.13 09:55:09 INFO  time: compiled root in 7.62s
+2023.11.13 09:55:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:51 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:51 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:55:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:19 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:56:22 INFO  time: compiled root in 3.19s
+2023.11.13 09:56:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 9:56:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3311
+2023.11.13 09:56:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:31 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:56:39 WARN  javac exited with exit code 1
+2023.11.13 09:56:39 INFO  time: compiled root in 7.46s
+2023.11.13 09:56:39 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:51 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:53 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:56:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:57:00 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 09:57:06 WARN  javac exited with exit code 1
+2023.11.13 09:57:06 INFO  time: compiled root in 6.13s
+2023.11.13 09:57:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:57:16 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:57:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:58:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:58:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:58:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:58:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:58:29 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:58:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:58:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:58:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:43 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 09:59:59 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:00:00 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:07 INFO  time: compiled root in 7.91s
+2023.11.13 10:00:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:15 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:00:20 INFO  time: compiled root in 5.03s
+2023.11.13 10:00:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:33 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:00:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:38 INFO  time: compiled root in 5s
+2023.11.13 10:00:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:43 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:00:43 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:00:49 WARN  javac exited with exit code 1
+2023.11.13 10:00:49 INFO  time: compiled root in 5.45s
+2023.11.13 10:00:49 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:01:12 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:01:22 WARN  javac exited with exit code 1
+2023.11.13 10:01:22 INFO  time: compiled root in 9.73s
+2023.11.13 10:02:35 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:02:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:02:43 WARN  javac exited with exit code 1
+2023.11.13 10:02:43 INFO  time: compiled root in 8.4s
+2023.11.13 10:02:43 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:02:43 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:02:48 WARN  javac exited with exit code 1
+2023.11.13 10:02:48 INFO  time: compiled root in 4.78s
+2023.11.13 10:02:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:03:35 INFO  running '/opt/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/hd/g_z2jt253d30pypn9l4hqg400000gp/T/metals2139824133210457636/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.13 10:03:39 INFO  [info] welcome to sbt 1.9.7 (Amazon.com Inc. Java 21.0.1)
+2023.11.13 10:03:41 INFO  [info] loading settings for project pekkoauth-server-build-build-build from metals.sbt ...
+2023.11.13 10:03:43 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/project
+2023.11.13 10:03:45 INFO  [info] loading settings for project pekkoauth-server-build-build from metals.sbt ...
+2023.11.13 10:03:45 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project
+2023.11.13 10:03:51 INFO  [success] Generated .bloop/pekkoauth-server-build-build.json
+2023.11.13 10:03:51 INFO  [success] Total time: 6 s, completed Nov 13, 2023, 10:03:51 AM
+2023.11.13 10:03:52 INFO  [info] loading settings for project pekkoauth-server-build from metals.sbt,plugins.sbt ...
+2023.11.13 10:03:52 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project
+2023.11.13 10:03:55 INFO  [success] Generated .bloop/pekkoauth-server-build.json
+2023.11.13 10:03:55 INFO  [success] Total time: 3 s, completed Nov 13, 2023, 10:03:55 AM
+2023.11.13 10:03:56 INFO  [info] loading settings for project root from build.sbt ...
+2023.11.13 10:03:56 INFO  [info]   __              __
+2023.11.13 10:03:56 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.11.13 10:03:56 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.11.13 10:03:56 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.11.13 10:03:56 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.11.13 10:03:56 INFO  [info]       /_/               /____/
+2023.11.13 10:03:56 INFO  [info] 
+2023.11.13 10:03:56 INFO  [info] Version 3.0.0 running Java 21.0.1
+2023.11.13 10:03:56 INFO  [info] 
+2023.11.13 10:03:56 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.11.13 10:03:56 INFO  [info] https://www.playframework.com/sponsors
+2023.11.13 10:03:56 INFO  [info] 
+2023.11.13 10:03:59 INFO  [success] Generated .bloop/root.json
+2023.11.13 10:03:59 INFO  [success] Generated .bloop/root-test.json
+2023.11.13 10:03:59 INFO  [success] Total time: 2 s, completed Nov 13, 2023, 10:03:59 AM
+2023.11.13 10:03:59 INFO  time: ran 'sbt bloopInstall' in 23s
+2023.11.13 10:03:59 INFO  Disconnecting from Bloop session...
+2023.11.13 10:03:59 INFO  Shut down connection with build server.
+2023.11.13 10:03:59 INFO  Attempting to connect to the build server...
+2023.11.13 10:03:59 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.13 10:03:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoChat/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.13 10:03:59 INFO  time: Connected to build server in 0.39s
+2023.11.13 10:03:59 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.13 10:04:04 INFO  time: indexed workspace in 4.28s
+2023.11.13 10:04:04 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:04:10 WARN  javac exited with exit code 1
+2023.11.13 10:04:10 INFO  time: compiled root in 6.07s
+2023.11.13 10:07:12 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:07:20 WARN  javac exited with exit code 1
+2023.11.13 10:07:20 INFO  time: compiled root in 7.74s
+2023.11.13 10:07:21 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:10:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:14:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:14:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:15:22 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:15:48 WARN  javac exited with exit code 1
+2023.11.13 10:15:48 INFO  time: compiled root in 25s
+2023.11.13 10:15:48 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:15:54 WARN  javac exited with exit code 1
+2023.11.13 10:15:54 INFO  time: compiled root in 5.76s
+2023.11.13 10:16:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:16:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:16:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:16:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:16:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:16:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:16:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:16:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:16:51 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:17:01 WARN  javac exited with exit code 1
+2023.11.13 10:17:01 INFO  time: compiled root in 10s
+2023.11.13 10:17:01 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:17:10 WARN  javac exited with exit code 1
+2023.11.13 10:17:10 INFO  time: compiled root in 8.22s
+2023.11.13 10:17:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:18:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:18:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:19:00 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:19:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:19:06 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:19:06 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:19:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:19:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:19:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:19:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:19:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:19:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:21:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:34:19 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 10:41:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3851
+2023.11.13 10:43:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:43:49 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:43:49 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:43:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:43:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:43:52 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:44:00 WARN  Using indexes to guess the definition of Json
+2023.11.13 10:44:13 INFO  time: compiled root in 21s
+2023.11.13 10:48:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:48:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:48:32 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:48:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:48:48 INFO  time: compiled root in 15s
+2023.11.13 10:48:48 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:48:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:49:03 WARN  javac exited with exit code 1
+2023.11.13 10:49:03 INFO  time: compiled root in 15s
+2023.11.13 10:49:03 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 10:49:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:49:28 WARN  javac exited with exit code 1
+2023.11.13 10:49:28 INFO  time: compiled root in 24s
+2023.11.13 10:58:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:58:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 10:59:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:29 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:29 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:41 WARN  Using indexes to guess the definition of json
+2023.11.13 11:00:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:43 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:45 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:51 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:53 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:00:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:01:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:01:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:01:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:01:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:01:26 WARN  Using indexes to guess the definition of message
+2023.11.13 11:01:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:01:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:02:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:02:49 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:02:53 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:02:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:02:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:02:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:02:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:02:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:03:00 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:03:00 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:03:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:03:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:03:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:03:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:03:47 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:03:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:03:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:03:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:03:59 WARN  Using indexes to guess the definition of json
+2023.11.13 11:04:00 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:03 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:16 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:32 WARN  Using indexes to guess the definition of json
+2023.11.13 11:04:32 WARN  Using indexes to guess the definition of None
+2023.11.13 11:04:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:38 WARN  Using indexes to guess the definition of message
+2023.11.13 11:04:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:04:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:01 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:05:16 INFO  time: compiled root in 14s
+2023.11.13 11:05:16 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:37 WARN  Using indexes to guess the definition of message
+2023.11.13 11:05:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:40 WARN  Using indexes to guess the definition of message
+2023.11.13 11:05:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:44 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:47 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:05:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:05:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:01 INFO  time: compiled root in 14s
+2023.11.13 11:06:01 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:06:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:04 INFO  time: compiled root in 2.48s
+2023.11.13 11:06:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:28 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:06:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:35 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:06:35 INFO  time: compiled root in 7.38s
+2023.11.13 11:06:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:36 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:06:45 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:06:45 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:06:54 INFO  time: compiled root in 8.14s
+2023.11.13 11:06:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:46 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:07:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:46 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:07:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:56 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:07:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:56 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:07:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:59 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:07:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:07:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:08:51 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:39 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:40 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:09:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:43 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:44 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:44 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:52 INFO  time: compiled root in 12s
+2023.11.13 11:09:52 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:09:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:57 INFO  time: compiled root in 5s
+2023.11.13 11:09:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:09:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:06 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:06 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:17 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:10:20 INFO  time: compiled root in 3.27s
+2023.11.13 11:10:20 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:10:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 11:10:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4989
+2023.11.13 11:10:24 INFO  time: compiled root in 3.7s
+2023.11.13 11:10:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:34 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:39 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:10:41 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:10:51 WARN  javac exited with exit code 1
+2023.11.13 11:10:51 INFO  time: compiled root in 9.52s
+2023.11.13 11:10:51 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:13:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:14:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:14:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:14:13 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:14:19 INFO  time: compiled root in 5.58s
+2023.11.13 11:14:19 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:14:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:14:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:14:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:14:25 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:14:37 WARN  javac exited with exit code 1
+2023.11.13 11:14:37 INFO  time: compiled root in 11s
+2023.11.13 11:14:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 11:15:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5126
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Exception in thread "pool-10-thread-1" 2023.11.13 11:15:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Nov 13, 2023 11:15:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5143
+2023.11.13 11:15:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 11:15:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5139
+2023.11.13 11:15:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:07 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:15:14 INFO  time: compiled root in 6.31s
+2023.11.13 11:15:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 11:15:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5170
+Nov 13, 2023 11:15:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5171
+2023.11.13 11:15:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 11:15:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5183
+2023.11.13 11:15:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:33 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:15:33 WARN  Using indexes to guess the definition of ChatManager
+2023.11.13 11:15:43 WARN  javac exited with exit code 1
+2023.11.13 11:15:43 INFO  time: compiled root in 9.57s
+2023.11.13 11:15:43 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:15:43 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:15:53 WARN  javac exited with exit code 1
+2023.11.13 11:15:53 INFO  time: compiled root in 9.68s
+2023.11.13 11:15:53 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:45 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:45 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:16:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:55 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:16:58 INFO  time: compiled root in 12s
+2023.11.13 11:16:58 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:16:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:17:06 WARN  javac exited with exit code 1
+2023.11.13 11:17:06 INFO  time: compiled root in 7.7s
+2023.11.13 11:17:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:17:51 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:19 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:19 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:42 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:18:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:18:59 WARN  javac exited with exit code 1
+2023.11.13 11:18:59 INFO  time: compiled root in 17s
+2023.11.13 11:18:59 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:19:14 WARN  javac exited with exit code 1
+2023.11.13 11:19:14 INFO  time: compiled root in 14s
+2023.11.13 11:20:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:20:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:20:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:20:47 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:20:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:21:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:21:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:21:27 INFO  time: code lens generation in 3.01s
+2023.11.13 11:21:29 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:29 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:29 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:41 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:22:54 WARN  javac exited with exit code 1
+2023.11.13 11:22:54 INFO  time: compiled root in 12s
+2023.11.13 11:22:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:22:56 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:23:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:23:02 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:23:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:23:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:23:06 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:23:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:23:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:23:07 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:23:07 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:23:11 WARN  javac exited with exit code 1
+2023.11.13 11:23:11 INFO  time: compiled root in 9.38s
+2023.11.13 11:23:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:23:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:23:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 11:26:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5698
+2023.11.13 11:26:51 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:27:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:14 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:23 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:28:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:23 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:28:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:49 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:51 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:52 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:53 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:28:54 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:29:09 WARN  javac exited with exit code 1
+2023.11.13 11:29:09 INFO  time: compiled root in 15s
+2023.11.13 11:29:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:29:43 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:29:44 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:29:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:29:48 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:29:54 INFO  time: compiled root in 6.31s
+2023.11.13 11:29:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:29:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:02 WARN  Using indexes to guess the definition of message
+2023.11.13 11:30:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:02 WARN  Using indexes to guess the definition of userId
+2023.11.13 11:30:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:06 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:06 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:15 WARN  Using indexes to guess the definition of message
+2023.11.13 11:30:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:16 WARN  Using indexes to guess the definition of userId
+2023.11.13 11:30:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:30:24 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:30:33 WARN  javac exited with exit code 1
+2023.11.13 11:30:33 INFO  time: compiled root in 8.45s
+2023.11.13 11:30:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:31:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:31:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:31:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:31:46 WARN  Using indexes to guess the definition of userId
+2023.11.13 11:31:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:31:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:31:48 WARN  Using indexes to guess the definition of userId
+2023.11.13 11:31:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:34:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:34:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:34:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:34:23 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:34:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:34:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:34:26 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:34:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:34:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:34:26 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:34:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:34:57 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:34:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:11 WARN  javac exited with exit code 1
+2023.11.13 11:35:11 INFO  time: compiled root in 14s
+2023.11.13 11:35:11 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:35:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:15 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:21 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:22 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:23 WARN  javac exited with exit code 1
+2023.11.13 11:35:23 INFO  time: compiled root in 11s
+2023.11.13 11:35:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:23 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:35:30 WARN  javac exited with exit code 1
+2023.11.13 11:35:30 INFO  time: compiled root in 6.51s
+2023.11.13 11:35:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:35:54 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:36:00 WARN  javac exited with exit code 1
+2023.11.13 11:36:00 INFO  time: compiled root in 5.7s
+2023.11.13 11:36:00 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:36:07 WARN  javac exited with exit code 1
+2023.11.13 11:36:07 INFO  time: compiled root in 7.1s
+2023.11.13 11:36:07 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:36:14 WARN  javac exited with exit code 1
+2023.11.13 11:36:14 INFO  time: compiled root in 6.97s
+2023.11.13 11:36:14 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:36:18 WARN  javac exited with exit code 1
+2023.11.13 11:36:18 INFO  time: compiled root in 4.37s
+2023.11.13 11:36:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:36:42 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:40:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:40:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:40:49 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:40:51 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:40:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:40:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:40:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:41:00 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:41:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:41:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:41:02 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:41:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:41:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:41:02 WARN  Using indexes to guess the definition of addMessage
+2023.11.13 11:41:03 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:41:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:41:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 11:41:08 INFO  time: compiled root in 16s
+2023.11.13 11:41:08 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:41:20 WARN  javac exited with exit code 1
+2023.11.13 11:41:20 INFO  time: compiled root in 12s
+2023.11.13 11:41:20 INFO  compiling root (18 scala sources and 1 java source)
+Nov 13, 2023 11:41:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6352
+2023.11.13 11:41:32 WARN  javac exited with exit code 1
+2023.11.13 11:41:32 INFO  time: compiled root in 11s
+2023.11.13 11:41:32 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:41:38 WARN  javac exited with exit code 1
+2023.11.13 11:41:38 INFO  time: compiled root in 5.96s
+2023.11.13 11:41:41 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:41:51 WARN  javac exited with exit code 1
+2023.11.13 11:41:51 INFO  time: compiled root in 10s
+2023.11.13 11:41:51 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:42:00 WARN  javac exited with exit code 1
+2023.11.13 11:42:00 INFO  time: compiled root in 8.31s
+2023.11.13 11:42:15 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:42:20 WARN  javac exited with exit code 1
+2023.11.13 11:42:20 INFO  time: compiled root in 5.35s
+2023.11.13 11:42:20 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:42:28 WARN  javac exited with exit code 1
+2023.11.13 11:42:28 INFO  time: compiled root in 7.02s
+2023.11.13 11:42:28 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:42:34 WARN  javac exited with exit code 1
+2023.11.13 11:42:34 INFO  time: compiled root in 5.82s
+2023.11.13 11:44:01 INFO  Shutting down server
+2023.11.13 11:44:01 INFO  shutting down Metals
+2023.11.13 11:44:02 INFO  Shut down connection with build server.
+2023.11.13 11:44:02 INFO  Exiting server
+2023.11.13 11:56:23 INFO  Started: Metals version 1.1.0 in folders '/Users/jjpseno/Documents/FULLPROJ/PekkoChat' for client Visual Studio Code 1.74.3.
+2023.11.13 11:56:26 INFO  Attempting to connect to the build server...
+2023.11.13 11:56:26 INFO  skipping build import with status 'Installed'
+2023.11.13 11:56:26 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.13 11:56:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoChat/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.13 11:56:27 INFO  time: Connected to build server in 1.9s
+2023.11.13 11:56:27 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.13 11:56:30 INFO  running '/opt/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/hd/g_z2jt253d30pypn9l4hqg400000gp/T/metals8537367223150334192/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.13 11:56:37 INFO  [info] welcome to sbt 1.9.7 (Amazon.com Inc. Java 21.0.1)
+2023.11.13 11:56:40 INFO  [info] loading settings for project pekkoauth-server-build-build-build from metals.sbt ...
+2023.11.13 11:56:41 INFO  no build target found for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/models/services/HomeService.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.13 11:56:43 INFO  time: Imported build in 0.24s
+2023.11.13 11:56:44 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/project
+2023.11.13 11:56:47 INFO  [info] loading settings for project pekkoauth-server-build-build from metals.sbt ...
+2023.11.13 11:56:47 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project
+2023.11.13 11:56:54 INFO  [success] Generated .bloop/pekkoauth-server-build-build.json
+2023.11.13 11:56:54 INFO  [success] Total time: 7 s, completed Nov 13, 2023, 11:56:55 AM
+2023.11.13 11:56:56 INFO  [info] loading settings for project pekkoauth-server-build from metals.sbt,plugins.sbt ...
+2023.11.13 11:56:56 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project
+2023.11.13 11:56:59 INFO  time: indexed workspace in 16s
+2023.11.13 11:56:59 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:57:01 INFO  [success] Generated .bloop/pekkoauth-server-build.json
+2023.11.13 11:57:02 INFO  [success] Total time: 6 s, completed Nov 13, 2023, 11:57:02 AM
+2023.11.13 11:57:05 INFO  [info] loading settings for project root from build.sbt ...
+2023.11.13 11:57:05 INFO  [info]   __              __
+2023.11.13 11:57:05 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.11.13 11:57:05 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.11.13 11:57:05 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.11.13 11:57:05 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.11.13 11:57:05 INFO  [info]       /_/               /____/
+2023.11.13 11:57:05 INFO  [info] 
+2023.11.13 11:57:05 INFO  [info] Version 3.0.0 running Java 21.0.1
+2023.11.13 11:57:05 INFO  [info] 
+2023.11.13 11:57:05 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.11.13 11:57:05 INFO  [info] https://www.playframework.com/sponsors
+2023.11.13 11:57:05 INFO  [info] 
+2023.11.13 11:57:19 INFO  [success] Generated .bloop/root.json
+2023.11.13 11:57:19 INFO  [success] Generated .bloop/root-test.json
+2023.11.13 11:57:19 INFO  [success] Total time: 13 s, completed Nov 13, 2023, 11:57:20 AM
+2023.11.13 11:57:20 INFO  time: ran 'sbt bloopInstall' in 49s
+2023.11.13 11:57:20 INFO  Disconnecting from Bloop session...
+2023.11.13 11:57:20 INFO  Cancelling compilation on Bloop server
+2023.11.13 11:57:20 WARN  javac exited with exit code 1
+2023.11.13 11:57:20 INFO  time: compiled root in 20s
+2023.11.13 11:57:20 INFO  Shut down connection with build server.
+Nov 13, 2023 11:57:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:203)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:268)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:290)
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:102)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:79)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:139)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:110)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.11.13 11:57:20 INFO  Failed to run request with params ScalaTestClassesResult
+2023.11.13 11:57:20 INFO  Attempting to connect to the build server...
+2023.11.13 11:57:20 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.13 11:57:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoChat/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.13 11:57:20 INFO  time: Connected to build server in 83ms
+2023.11.13 11:57:20 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.13 11:57:27 INFO  time: indexed workspace in 6.47s
+2023.11.13 11:57:27 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:57:31 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 10.989s)
+2023.11.13 11:57:31 INFO  compiling root (18 scala sources and 1 java source)
+Nov 13, 2023 11:57:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+2023.11.13 11:57:40 WARN  javac exited with exit code 1
+2023.11.13 11:57:40 WARN  javac exited with exit code 1
+2023.11.13 11:57:40 INFO  time: compiled root in 8.93s
+2023.11.13 11:57:40 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:57:51 WARN  javac exited with exit code 1
+2023.11.13 11:57:51 INFO  time: compiled root in 10s
+2023.11.13 11:57:51 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 30.742s)
+2023.11.13 11:57:51 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 30.76s)
+2023.11.13 11:57:51 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:57:51 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:57:51 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 11:58:01 WARN  javac exited with exit code 1
+2023.11.13 11:58:01 WARN  javac exited with exit code 1
+2023.11.13 11:58:01 WARN  javac exited with exit code 1
+2023.11.13 11:58:01 INFO  time: compiled root in 9.53s
+2023.11.13 12:00:36 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 12:00:45 WARN  javac exited with exit code 1
+2023.11.13 12:00:45 INFO  time: compiled root in 9.24s
+2023.11.13 12:02:03 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 12:02:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:02:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:02:09 WARN  javac exited with exit code 1
+2023.11.13 12:02:09 INFO  time: compiled root in 6.76s
+2023.11.13 12:02:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:02:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:03:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:04:23 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 12:04:31 WARN  javac exited with exit code 1
+2023.11.13 12:04:31 INFO  time: compiled root in 8.32s
+2023.11.13 12:04:31 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 12:04:40 WARN  javac exited with exit code 1
+2023.11.13 12:04:40 INFO  time: compiled root in 9.07s
+2023.11.13 12:04:40 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 12:04:45 WARN  javac exited with exit code 1
+2023.11.13 12:04:45 INFO  time: compiled root in 4.68s
+2023.11.13 12:05:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:06 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:16 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 12:06:26 WARN  javac exited with exit code 1
+2023.11.13 12:06:26 INFO  time: compiled root in 9.23s
+2023.11.13 12:06:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:06:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:27:47 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:36:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:53:44 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:53:47 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:54:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 12:54:44 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 12:55:02 WARN  javac exited with exit code 1
+2023.11.13 12:55:02 INFO  time: compiled root in 17s
+2023.11.13 12:55:20 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 1:11:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 324
+2023.11.13 13:11:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:11:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:11:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:11:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:11:39 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:11:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:11:43 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 13:11:57 WARN  javac exited with exit code 1
+2023.11.13 13:11:57 INFO  time: compiled root in 14s
+2023.11.13 13:11:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:12:08 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:12:45 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:13:09 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:13:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:23:48 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:23:55 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:27:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:27:41 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:28:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:30:17 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 13:30:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:30:30 WARN  javac exited with exit code 1
+2023.11.13 13:30:30 INFO  time: compiled root in 13s
+2023.11.13 13:30:30 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 13:30:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:30:37 WARN  javac exited with exit code 1
+2023.11.13 13:30:37 INFO  time: compiled root in 6.22s
+2023.11.13 13:30:37 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:30:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:31:17 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:37:10 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:37:13 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:37:19 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:37:21 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:37:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:37:24 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:37:25 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 13:37:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:37:48 WARN  javac exited with exit code 1
+2023.11.13 13:37:48 INFO  time: compiled root in 23s
+2023.11.13 13:37:49 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:37:54 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:37:55 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:37:58 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 13:38:18 WARN  javac exited with exit code 1
+2023.11.13 13:38:18 INFO  time: compiled root in 20s
+2023.11.13 13:38:19 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+Nov 13, 2023 1:46:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 545
+Nov 13, 2023 1:46:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 551
+2023.11.13 13:46:50 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 13:46:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:46:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:00 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:00 WARN  javac exited with exit code 1
+2023.11.13 13:47:00 INFO  time: compiled root in 10s
+2023.11.13 13:47:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:02 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:03 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:18 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:26 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:31 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:32 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:33 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:46 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:47 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:47 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:47:50 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:48:58 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:49:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:49:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:49:05 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:49:05 WARN  Using indexes to guess the definition of login
+2023.11.13 13:49:27 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 13:49:28 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 13:49:48 WARN  javac exited with exit code 1
+2023.11.13 13:49:48 INFO  time: compiled root in 20s
+2023.11.13 13:51:57 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:09:18 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 14:09:30 WARN  javac exited with exit code 1
+2023.11.13 14:09:30 INFO  time: compiled root in 11s
+2023.11.13 14:13:00 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 14:13:03 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:13:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:13:10 INFO  time: compiled root in 9.99s
+2023.11.13 14:13:10 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 14:13:11 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:13:16 INFO  time: compiled root in 4.95s
+2023.11.13 14:13:16 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 14:13:18 INFO  time: compiled root in 2.29s
+Nov 13, 2023 2:13:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 879
+2023.11.13 14:13:33 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 14:13:43 WARN  javac exited with exit code 1
+2023.11.13 14:13:43 INFO  time: compiled root in 9.89s
+2023.11.13 14:14:21 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:17:35 INFO  running '/opt/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/hd/g_z2jt253d30pypn9l4hqg400000gp/T/metals8651774497695868544/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.13 14:17:39 INFO  [info] welcome to sbt 1.9.7 (Amazon.com Inc. Java 21.0.1)
+2023.11.13 14:17:41 INFO  [info] loading settings for project pekkoauth-server-build-build-build from metals.sbt ...
+2023.11.13 14:17:43 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/project
+2023.11.13 14:17:46 INFO  [info] loading settings for project pekkoauth-server-build-build from metals.sbt ...
+2023.11.13 14:17:46 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project
+2023.11.13 14:17:51 INFO  [success] Generated .bloop/pekkoauth-server-build-build.json
+2023.11.13 14:17:51 INFO  [success] Total time: 5 s, completed Nov 13, 2023, 2:17:51 PM
+2023.11.13 14:17:51 INFO  [info] loading settings for project pekkoauth-server-build from metals.sbt,plugins.sbt ...
+2023.11.13 14:17:52 INFO  [info] loading project definition from /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project
+2023.11.13 14:17:54 INFO  [success] Generated .bloop/pekkoauth-server-build.json
+2023.11.13 14:17:54 INFO  [success] Total time: 3 s, completed Nov 13, 2023, 2:17:55 PM
+2023.11.13 14:17:56 INFO  [info] loading settings for project root from build.sbt ...
+2023.11.13 14:17:56 INFO  [info]   __              __
+2023.11.13 14:17:56 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.11.13 14:17:56 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.11.13 14:17:56 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.11.13 14:17:56 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.11.13 14:17:56 INFO  [info]       /_/               /____/
+2023.11.13 14:17:56 INFO  [info] 
+2023.11.13 14:17:56 INFO  [info] Version 3.0.0 running Java 21.0.1
+2023.11.13 14:17:56 INFO  [info] 
+2023.11.13 14:17:56 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.11.13 14:17:56 INFO  [info] https://www.playframework.com/sponsors
+2023.11.13 14:17:56 INFO  [info] 
+2023.11.13 14:18:01 INFO  [success] Generated .bloop/root.json
+2023.11.13 14:18:01 INFO  [success] Generated .bloop/root-test.json
+2023.11.13 14:18:01 INFO  [success] Total time: 5 s, completed Nov 13, 2023, 2:18:02 PM
+2023.11.13 14:18:02 INFO  time: ran 'sbt bloopInstall' in 26s
+2023.11.13 14:18:02 INFO  Disconnecting from Bloop session...
+2023.11.13 14:18:02 INFO  Shut down connection with build server.
+2023.11.13 14:18:02 INFO  Attempting to connect to the build server...
+2023.11.13 14:18:02 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home defined at /Users/jjpseno/.bloop/bloop.json
+2023.11.13 14:18:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jjpseno/Documents/FULLPROJ/PekkoChat/.metals/bsp.trace.json or /Users/jjpseno/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.13 14:18:02 INFO  time: Connected to build server in 0.34s
+2023.11.13 14:18:02 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.13 14:18:02 INFO  time: Imported build in 0.11s
+2023.11.13 14:18:07 INFO  time: indexed workspace in 4.64s
+2023.11.13 14:18:07 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 14:18:14 WARN  javac exited with exit code 1
+2023.11.13 14:18:14 INFO  time: compiled root in 7.05s
+2023.11.13 14:21:47 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 14:21:58 WARN  javac exited with exit code 1
+2023.11.13 14:21:58 INFO  time: compiled root in 11s
+Nov 13, 2023 2:24:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 944
+2023.11.13 14:24:01 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:24:12 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:24:25 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:24:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:24:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:24:35 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:24:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:24:38 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 14:24:55 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:25:03 WARN  javac exited with exit code 1
+2023.11.13 14:25:03 INFO  time: compiled root in 24s
+2023.11.13 14:25:04 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:25:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:25:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:27:21 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:27:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 14:34:53 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 14:35:08 WARN  javac exited with exit code 1
+2023.11.13 14:35:08 INFO  time: compiled root in 15s
+2023.11.13 15:06:23 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 15:08:36 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 15:09:30 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 15:11:28 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 15:11:40 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 15:20:19 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 15:20:38 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 15:20:45 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 15:22:59 WARN  Could not load snapshot text for /Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/app/controllers/HomeController.scala
+2023.11.13 15:23:13 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 15:23:32 WARN  javac exited with exit code 1
+2023.11.13 15:23:32 INFO  time: compiled root in 19s
+2023.11.13 15:23:32 INFO  compiling root (18 scala sources and 1 java source)
+2023.11.13 15:23:44 WARN  javac exited with exit code 1
+2023.11.13 15:23:44 INFO  time: compiled root in 11s

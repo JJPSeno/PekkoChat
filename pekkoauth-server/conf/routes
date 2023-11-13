@@ -7,9 +7,11 @@
 GET     /                           controllers.HomeController.index()
 GET     /init                       controllers.HomeController.init()
 GET     /cusers                     controllers.HomeController.getAllUsers()
+GET     /cmessages                  controllers.HomeController.getAllMessages()
 GET     /msg                        controllers.HomeController.sayHello()
 GET     /ws                         controllers.HomeController.socket()
 POST    /register                   controllers.HomeController.register()
+POST    /messages                   controllers.HomeController.addMessage()
 POST    /login                      controllers.HomeController.login()
 POST    /logout                     controllers.HomeController.logout()
 

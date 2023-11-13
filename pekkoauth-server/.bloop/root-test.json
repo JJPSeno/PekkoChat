@@ -2,20 +2,20 @@
     "version": "1.4.0",
     "project": {
         "name": "root-test",
-        "directory": "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server",
-        "workspaceDir": "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server",
+        "directory": "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server",
+        "workspaceDir": "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server",
         "sources": [
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/test",
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/test-3",
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/target/scala-3.3.1/src_managed/test",
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/target/scala-3.3.1/routes/test",
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/target/scala-3.3.1/twirl/test"
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/test",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/test-3",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/target/scala-3.3.1/src_managed/test",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/target/scala-3.3.1/routes/test",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/target/scala-3.3.1/twirl/test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/.bloop/root/scala-3/classes",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/.bloop/root/scala-3/classes",
             "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.1/scala3-library_3-3.3.1.jar",
             "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/playframework/twirl/twirl-api_3/2.0.1/twirl-api_3-2.0.1.jar",
             "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/playframework/play-server_3/3.0.0/play-server_3-3.0.0.jar",
@@ -192,11 +192,11 @@
             "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.50.v20221201/jetty-http-9.4.50.v20221201.jar",
             "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.50.v20221201/websocket-api-9.4.50.v20221201.jar"
         ],
-        "out": "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/.bloop/root",
-        "classesDir": "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/.bloop/root/scala-3/test-classes",
+        "out": "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/.bloop/root",
+        "classesDir": "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/.bloop/root/scala-3/test-classes",
         "resources": [
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/test/resources",
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/target/scala-3.3.1/resource_managed/test"
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/test/resources",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/target/scala-3.3.1/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -364,7 +364,7 @@
             "config": {
                 "home": "/opt/local/sdkman/candidates/java/21.0.1-amzn",
                 "options": [
-                    "-Duser.dir=/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server"
+                    "-Duser.dir=/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server"
                 ]
             },
             "mainClass": [

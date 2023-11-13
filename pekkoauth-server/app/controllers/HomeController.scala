@@ -33,10 +33,20 @@ final case class Login(
   password: String
 )
 
+val loginForm: Form[Login] = Form(mapping(
+  "username"-> nonEmptyText, 
+  "password" -> nonEmptyText)
+  (Login.apply)((loginForm: Login) => Some(loginForm.username, loginForm.password)))
+  
 final case class Register(
   username: String,
   password: String
 )
+
+val registerForm: Form[Register] = Form(mapping(
+  "username"-> nonEmptyText, 
+  "password" -> nonEmptyText)
+  (Register.apply)((registerForm: Register) => Some(registerForm.username, registerForm.password)))
 
 implicit val userWrites: Writes[User] = new Writes[User] {
   def writes(user: User) = Json.obj(
@@ -51,15 +61,31 @@ implicit val userReads: Reads[User] = (
   (JsPath \ "password").read[String]
 )(User.apply _)
 
-val loginForm: Form[Login] = Form(mapping(
-  "username"-> nonEmptyText, 
-  "password" -> nonEmptyText)
-  (Login.apply)((loginForm: Login) => Some(loginForm.username, loginForm.password)))
+implicit val messageWrites: Writes[Message] = new Writes[Message] {
+  def writes(message: Message) = Json.obj(
+    "id" -> message.id,
+    "userId"  -> message.userId,
+    "username"  -> message.username,
+    "message"  -> message.message,
+    "photoType"  -> message.photoType,
+    "photoBytes"  -> message.photoBytes
+  )
+}
 
-val registerForm: Form[Register] = Form(mapping(
-  "username"-> nonEmptyText, 
-  "password" -> nonEmptyText)
-  (Register.apply)((registerForm: Register) => Some(registerForm.username, registerForm.password)))
+final case class MessageFromForm(
+  userId: UUID,
+  username: String,
+  message: Option[String] = None,
+  photoType: Option[String] = None,
+  photoBytes: Option[Array[Byte]] = None)
+
+implicit val messageReads: Reads[MessageFromForm] = (
+  (JsPath \ "userId").read[UUID] and
+  (JsPath \ "username").read[String] and
+  (JsPath \ "message").readNullable[String] and
+  (JsPath \ "photoType").readNullable[String] and
+  (JsPath \ "photoBytes").readNullable[Array[Byte]]
+)(MessageFromForm.apply _)
 
 @Singleton
 class HomeController @Inject()(val controllerComponents: ControllerComponents, val homeService: HomeService, val secureAction: SecureAction) 
@@ -93,9 +119,11 @@ extends BaseController {
     Action.async { implicit request =>
       loginForm.bindFromRequest().fold(
         formWithErrors => {
+          println(formWithErrors)
           Future.successful(BadRequest("Failed to login. Errors: " + formWithErrors.errors))
         },
         login => {
+          println(login)
           request.session.get("username") match {
             case Some(username) => 
               Future.successful(Ok("Already logged in as " + username)) 
@@ -103,7 +131,8 @@ extends BaseController {
               homeService.validateUser(login.username).map { 
               case Some(user) =>
                 if (login.password == user.password) {
-                  Ok("Logging in").withSession("username" -> user.username)
+                  println("login success")
+                  Ok(Json.toJson(user)).withSession("username" -> user.username)
                 } else {
                   Unauthorized("Incorrect username or password")
                 }
@@ -130,9 +159,32 @@ extends BaseController {
         })
     }
 
+  def addMessage() = 
+    secureAction.async { implicit request =>
+      request.body.asJson match {
+        case Some(json) => 
+          val message = json.as[MessageFromForm]
+          println(message)
+          if (message.message == None && message.photoType == None && message.photoBytes == None) {
+            Future.successful(BadRequest("Need message or photo"))
+          } else {
+            homeService.addMessage(message.userId, message.username, message.message, message.photoType, message.photoBytes).map(_ => Ok("Added message"))
+          }
+        case None => Future.successful(BadRequest("Failed to add message"))
+      }
+    
+    }
+  
   def getAllUsers() =
     Action.async { implicit request =>
       homeService.checkUserSchema.map { users => Ok(Json.toJson(users)) }
-    }
+  }
+
+  def getAllMessages() =
+    Action.async { implicit request =>
+      homeService.checkMessageSchema.map { messages => Ok(Json.toJson(messages)) }
+  }
 
 }
+
+

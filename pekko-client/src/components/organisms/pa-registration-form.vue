@@ -1,12 +1,12 @@
 <template>
-  <form>
-  <pa-labeled-input labeledInputId="registration-input-username" v-model="username">
+  <form name="registerationForm" method="POST" @submit.prevent="chatStore.register">
+  <pa-labeled-input labeledInputId="registration-input-username" v-model="chatStore.credentialsForm.username">
   Username:
   </pa-labeled-input>
-  <pa-labeled-input labeledInputId="registration-input-password" v-model="password">
+  <pa-labeled-input labeledInputId="registration-input-password" v-model="chatStore.credentialsForm.password">
   Password:
   </pa-labeled-input>
-  <paButton btnClass="registration" btnName="registration" btnType="submit">Registration</paButton>
+  <paButton btnClass="registration" btnName="registration" btnType="submit">Register</paButton>
   </form>
 </template>
 <script setup lang="ts">
@@ -15,9 +15,6 @@ import paButton from '../atoms/pa-button.vue';
 
 import { useChatStore } from '@/stores/chat';
 const chatStore = useChatStore()
-
-const username = chatStore.testRef
-const password = chatStore.testRef
 
 </script>
 <style scoped></style>

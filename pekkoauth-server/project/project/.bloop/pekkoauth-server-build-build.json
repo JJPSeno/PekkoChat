@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "pekkoauth-server-build-build",
-        "directory": "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project",
-        "workspaceDir": "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project",
+        "directory": "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project",
+        "workspaceDir": "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project",
         "sources": [
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/src/main/scala",
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/src/main/scala-2.12",
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/src/main/scala-2",
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/src/main/java",
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/src/main/scala-sbt-1.0",
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/src/main/scala",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/src/main/scala-2.12",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/src/main/scala-2",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/src/main/java",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/src/main/scala-sbt-1.0",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -103,11 +103,11 @@
             "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
             "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
         ],
-        "out": "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/.bloop/pekkoauth-server-build-build",
-        "classesDir": "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/.bloop/pekkoauth-server-build-build/scala-2.12/sbt-1.0/classes",
+        "out": "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/.bloop/pekkoauth-server-build-build",
+        "classesDir": "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/.bloop/pekkoauth-server-build-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/src/main/resources",
-            "/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/src/main/resources",
+            "/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -215,7 +215,7 @@
             "config": {
                 "home": "/opt/local/sdkman/candidates/java/21.0.1-amzn",
                 "options": [
-                    "-Duser.dir=/Users/jjpseno/Documents/FULLPROJ/PekkoAuth/pekkoauth-server/project/project"
+                    "-Duser.dir=/Users/jjpseno/Documents/FULLPROJ/PekkoChat/pekkoauth-server/project/project"
                 ]
             },
             "mainClass": [
@@ -238,6 +238,11 @@
                             "name": "sbt-bloop",
                             "classifier": "sources",
                             "path": "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.11/sbt-bloop_2.12_1.0-1.5.11-sources.jar"
+                        },
+                        {
+                            "name": "sbt-bloop",
+                            "classifier": "javadoc",
+                            "path": "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.11/sbt-bloop_2.12_1.0-1.5.11-javadoc.jar"
                         }
                     ]
                 },
@@ -255,6 +260,11 @@
                             "name": "bloop-config_2.12",
                             "classifier": "sources",
                             "path": "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5-sources.jar"
+                        },
+                        {
+                            "name": "bloop-config_2.12",
+                            "classifier": "javadoc",
+                            "path": "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5-javadoc.jar"
                         }
                     ]
                 },
@@ -272,6 +282,11 @@
                             "name": "jsoniter-scala-core_2.12",
                             "classifier": "sources",
                             "path": "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0-sources.jar"
+                        },
+                        {
+                            "name": "jsoniter-scala-core_2.12",
+                            "classifier": "javadoc",
+                            "path": "/Users/jjpseno/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0-javadoc.jar"
                         }
                     ]
                 },
